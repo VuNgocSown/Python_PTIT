@@ -34,7 +34,6 @@ if __name__ == '__main__':
         mtr1 = Matrix(n, m)
         mtr1.input_matrix()
         mtr2 = mtr1.transpose()
-        mtr3 = Matrix(n, n)
         mtr3 = mtr1.mulmtr(mtr2)
         print(mtr3)
         t-=1
